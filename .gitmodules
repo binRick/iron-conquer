@@ -1,0 +1,9 @@
+[submodule "third_party/OpenRA"]
+	path = third_party/OpenRA
+	url = https://github.com/OpenRA/OpenRA.git
+[submodule "third_party/redhorizon"]
+	path = third_party/redhorizon
+	url = https://github.com/ultraq/redhorizon.git
+[submodule "third_party/raplusmod"]
+	path = third_party/raplusmod
+	url = https://github.com/MlemandPurrs/raplusmod.git

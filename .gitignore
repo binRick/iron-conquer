@@ -1,0 +1,10 @@
+build/
+build-*/
+cmake-build-*/
+.cache/
+*.dSYM/
+.DS_Store
+debug.log
+screenshot.png
+.claude/settings.local.json
+memory/

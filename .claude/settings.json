@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(ls ~/Downloads/*)",
+      "Bash(ls -lt ~/Downloads/*)",
+      "Bash(ls -la ~/Downloads/*)",
+      "Bash(ls ~/Desktop/*)",
+      "Bash(ls -lt ~/Desktop/*)",
+      "Bash(ls -la ~/Desktop/*)",
+      "Bash(ls -lt ~/Desktop/ ~/Pictures/*)",
+      "Bash(ls ~/Pictures/*)",
+      "Bash(ls -lt ~/Pictures/*)",
+      "Bash(ls -la ~/Pictures/*)",
+      "Read(//Users/richardblundell/Downloads/**)",
+      "Read(//Users/richardblundell/Desktop/**)",
+      "Read(//Users/richardblundell/Pictures/**)"
+    ]
+  }
+}
