@@ -547,3 +547,10 @@ just `(tile_x, tile_y, tmp_index, frame_index, jitter_x, jitter_y)` —
 the actual `Texture2D` is looked up at draw time from the loaded
 `TmpSprite` array. Drawn after the baked tilemap and before units, so
 units always render on top of decorations.
+
+## Maintain scc statistics
+
+On any commit you make, regenerate the `## Code Statistics` section in
+`README.md` (the block delimited by `<!-- scc-start -->` and
+`<!-- scc-end -->`) using `scc --no-cocomo -f csv`. Stage the README
+together with your other changes so the stats stay in sync with the code.
